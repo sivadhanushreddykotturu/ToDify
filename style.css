@@ -113,31 +113,29 @@ ul li span:hover{
 
 
 @media screen and (max-width: 768px) {
-    body {
-        font-size: 16px;
-        padding: 10px;
-    }
-
     .container {
         width: 90%;
         margin: auto;
         padding: 15px;
     }
 
+    .input-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     input[type="text"] {
-        width: 100%;
+        width: 90%;
         font-size: 16px;
         padding: 10px;
+        border-radius: 8px;
+        margin-bottom: 10px; /* Add space between input and button */
     }
 
     button {
-        width: 100%;
+        width: 50%;
         font-size: 16px;
-        padding: 10px;
-    }
-
-    .task {
-        font-size: 14px;
         padding: 10px;
     }
 }
