@@ -111,3 +111,33 @@ ul li span:hover{
     background: #edeef0;
 }
 
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .container {
+        width: 90%;
+        margin: auto;
+        padding: 15px;
+    }
+
+    input[type="text"] {
+        width: 100%;
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    button {
+        width: 100%;
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .task {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
